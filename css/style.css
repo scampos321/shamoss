@@ -9,7 +9,6 @@ img {
     width: 200px;
 }
 .container {
-    position: sticky;
     margin: 20px;
     width: auto;
   }
@@ -19,11 +18,10 @@ img {
     border-radius: 30px;
   }
 .topnav a {
-    float: left;
+    float: right;
     color: yellow;
     text-align: center;
     padding: 14px 16px;
-    padding-left: 230px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -38,10 +36,11 @@ img {
     width: 500px;
     height: 500px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .pic{
     width: 300px;
     height: 300px;
 }
+
